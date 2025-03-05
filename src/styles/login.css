@@ -1,0 +1,98 @@
+/* Fondo oscuro */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #09202c;
+}
+
+/* Caja blanca del login */
+.login-box {
+  width: 340px;
+  padding: 25px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+}
+
+/* Flecha para volver */
+.back-arrow {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow-icon {
+  font-size: 24px;
+  color: #333;
+}
+
+.back-arrow:hover .arrow-icon {
+  color: #009fd9;
+}
+
+/* Logo centrado arriba */
+.login-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Tamaño del logo */
+.logo-img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+/* Campos de entrada */
+.login-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Botón de login */
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #009fd9;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease-in-out;
+}
+
+.login-button:hover {
+  background-color: #0084b3;
+}
+
+/* Texto de registro */
+.login-footer {
+  margin-top: 10px;
+  font-size: 14px;
+  color: gray;
+}
+
+.login-link {
+  color: #009fd9;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
